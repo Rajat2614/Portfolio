@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale = 1.0">
+    <title>Portfolio Website by Rajat</title>
+
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+
+    <!--BOOTSTRAP 5 CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+    <!--Custom Css File-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <!--Navbar section-->
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-1.jpg" class="img-fluid" alt="logo" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#media">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hello</h2>
+                    <h1 class="text-uppercase">I am Rajat Chauhan</h1>
+                    <h5 class="text-uppercase">Upcoming Software Development Engineer</h5>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="/resume/RAJAT's Resume.pdf">Get Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img src="images/home-right-1.gif" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <img src="images/about-us.webp" class="img-fluid">
+                </div>
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h3>Let's <br> Introduce about <br> myself</h3>
+                    <p>
+                        I am Rajat Chauhan persuing B.Tech in CSE from Netaji Subash University of Technology East
+                        Campus.I have string aptitude and leadership skills.I like to paint and sketch.
+                    </p>
+                    <p>
+                        Offering expertise in C, C++, Python, HTML/CSS , NodeJS, ReactJS, MongoDB and
+                        in-depth knowledge of Data Structures and Algortihms.
+                    </p>
+                    <a href="/resume/RAJAT's Resume.pdf" class="main-btn primary-btn mt-4" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h2>QUALITY WORK<br>RECENTLY DONE PROJECTS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one"
+                            aria-selected="true">Favourites</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                            type="button" role="tab" aria-controls="pills-two" aria-selected="false">Latest</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://rajat2614.github.io/GuessTheWord/" target="_blank">
+                                        <img src="./images/portfolio/img-1.jfif" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">GUESS THE WORD</h5>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/Rajat2614/HackerRank-Automation/blob/main/main.js"
+                                        target="_blank">
+                                        <img src="./images/portfolio/img-2.jpg" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">HACKERRANK AUTOMATION</h5>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">https://rajat2614.github.io/ColorGuess/
+                                    <a href="https://rajat2614.github.io/ColorGuess/" target="_blank">
+                                        <img src="./images/portfolio/img-3.webp" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">COLOR GUESS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://rajat2614.github.io/E-Commerce-Website/" target="_blank">
+                                        <img src="./images/portfolio/latest-1.webp" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">ECOMMERCE-WEBSITE</h5>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://rajat2614.github.io/GuessTheWord/" target="_blank">
+                                        <img src="./images/portfolio/img-1.jfif" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">GUESS THE WORD</h5>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <a href="https://rajat2614.github.io/ColorGuess/" target="_blank">
+                                        <img src="./images/portfolio/img-3.webp" class="img-fluid w-100">
+                                        <div class="overlay"><i class="fas fa-plus"></i></div>
+                                    </a>
+                                </div>
+                                <h5 class="mb-0 mt-4">COLOR GUESS</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Media Section -->
+    <section id="media" class="media_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>PLATFORMS</h2>
+                    <p>Where i am currently active</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <a href="https://leetcode.com/rajat_chauhan_2000/" target="_blank">
+                            <img src="./images/leetcode.png" class="img-fluid" alt="leetcode">
+                            <div class="media_details">
+                                <div class="media_text text-center">
+                                    <h5 class="text-black mb-0">LEETCODE</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <a href="https://github.com/Rajat2614" target="_blank">
+                            <img src="./images/github.png" class="img-fluid" alt="leetcode">
+                            <div class="media_details">
+                                <div class="media_text text-center">
+                                    <h5 class="text-white mb-0">GITHUB</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 p-0">
+                        <a href="linkedin.com/in/rajat-chauhan-b2b8541b3" target="_blank">
+                            <img src="./images/linkedin.webp" class="img-fluid" alt="leetcode">
+                            <div class="media_details">
+                                <div class="media_text text-center">
+                                    <h5 class="text-black mb-0">LINKEDIN</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section -->
+    <section id="contact" class="footer_wrapper mt-3">
+        <div class="container mt-5">
+            <div class="col-12 text-center">
+                <div class="footer-logo mb-3 mb-md-0">
+                    <img src="/images/logo-1.jpg" class="img-fluid">
+                </div>
+                <div class="my-4 social-icons">
+                    <h5>Follow Me</h5>
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                        <li><a href="https://www.facebook.com/rajjjatchauhan"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/rajat88829241"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/rajat_chauhan_2000/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <p class="footer-text text-center my-2">Copyright © 2022 All rights reserved | This Website is made with
+                    <i class="far fa-heart"></i> by <a href="#">Rajat Chauhan</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS Scripts-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
