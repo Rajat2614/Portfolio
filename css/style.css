@@ -192,7 +192,7 @@ p{
 /* Banner */
 
 .banner_wrapper{
-    padding: 6.875rem;
+    padding: 2.875rem;
     z-index: 1;
     background-image: url('../images/home-banner.png');
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ p{
 } */
 
 .about_wrapper{
-    padding: 6.875rem;
+    padding: 2.875rem;
 }
 
 /* Portfolio */
